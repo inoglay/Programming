@@ -1,0 +1,7 @@
+テストコード記載方法
+https://dena.github.io/codelabs/tdd-go/#5
+
+標準入力の方法
+https://qiita.com/kosukeKK/items/865e06de03d20664a83f
+
+
