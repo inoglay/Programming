@@ -72,7 +72,7 @@ func TestRockpaperscissors(t *testing.T) {
 
 	//メッセージ取得
 	message := GetMessage(0)
-	if message != "じゃんけんぽん。。（１：グー、２：チョキ、３；パー）" {
+	if message != "じゃんけんぽん。。（1：グー、2：チョキ、3：パー）" {
 		t.Errorf(`GetMessage(0) is %q`, message)
 	}
 
@@ -87,7 +87,7 @@ func TestRockpaperscissors(t *testing.T) {
 	}
 
 	message = GetMessage(3)
-	if message != "あいこでしょ。。。（１：グー、２：チョキ、３；パー）" {
+	if message != "あいこでしょ。。。（1：グー、2：チョキ、3：パー）" {
 		t.Errorf(`GetMessage(3) is %q`, message)
 	}
 

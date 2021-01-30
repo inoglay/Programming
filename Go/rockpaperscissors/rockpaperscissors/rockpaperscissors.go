@@ -31,13 +31,13 @@ func IsInput(inputText string, isNum bool) bool {
 func GetMessage(messageNo int) string {
 	switch messageNo {
 	case 0:
-		return "じゃんけんぽん。。（1：グー、2：チョキ、3；パー）"
+		return "じゃんけんぽん。。（1：グー、2：チョキ、3：パー）"
 	case 1:
 		return "あなたの勝ち！！！つづけますか？（Y:はい、N：いいえ）"
 	case 2:
 		return "あなたの負け・・・つづけますか？（Y:はい、N：いいえ）"
 	case 3:
-		return "あいこでしょ。。。（1：グー、2：チョキ、3；パー）"
+		return "あいこでしょ。。。（1：グー、2：チョキ、3：パー）"
 	default:
 		return ""
 	}
